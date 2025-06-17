@@ -41,3 +41,6 @@ Apache Jena Fuseki: **https://jena.apache.org/download/**
 - Aplikasi akan menampilkan baris-baris yang mengandung kata kunci tersebut beserta hasil translasi, transliterasi, dan aksara Jawa-nya.
 - Jika ingin melihat seluruh baris dari teks cerkak, scroll ke bagian bawah dan klik tombol "Tampilkan semua baris".
 
+### Contoh Hasil
+1. Tampilan Utama
+![image](https://github.com/user-attachments/assets/98c25e40-8b2d-4c7a-b35d-61fa05421c29)
