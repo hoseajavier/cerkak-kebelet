@@ -72,4 +72,4 @@ Apache Jena Fuseki: **https://jena.apache.org/download/**
 
 ---
 
-*Dikembangkan untuk penelitian dan pelestarian warisan budaya Jawa*
+*Dikembangkan untuk pelestarian warisan budaya dan aksara Jawa*
