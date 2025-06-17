@@ -65,3 +65,11 @@ Apache Jena Fuseki: **https://jena.apache.org/download/**
 - Vernandika Stanley Hansen (140810220031)
 - Hosea Javier (140810220033)
 - Adrian Jeremia Kurniawan (140810220047)
+
+**Universitas Padjadjaran**  
+**Fakultas MIPA - Program Studi Teknik Informatika**  
+**2025**
+
+---
+
+*Dikembangkan untuk penelitian dan pelestarian warisan budaya Jawa*
