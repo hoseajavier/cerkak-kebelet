@@ -1,0 +1,477 @@
+@prefix : <http://contoh.org/cerkak#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lexinfo: <http://www.lexinfo.net/ontology/2.0/lexinfo#> .
+
+# Entitas cerkak
+:cerkak a :Manuskrip ;
+    dcterms:title "Kebelet"@id ;
+    dcterms:language "jv" ;
+    dcterms:creator "Tiwik SA" ;
+    :ditulisMenggunakan :AksaraJawa .
+
+# Aksara yang digunakan
+:AksaraJawa a :SistemTulisan ;
+    rdfs:label "Aksara Jawa Hanacaraka"@id ;
+    :berasalDariWilayah "Sanggar Triwida"@id .
+
+# Baris cerkak
+:baris001 a :BarisCerkak ;
+    :isFromManuscript :cerkak ;
+    :mengandungAksara :aksara_baris001 ;
+    :hasTransliteration :translit_baris001 ;
+    :hasTranslation :terjemah_baris001 ;
+    dcterms:identifier "BARIS-001" .
+
+:aksara_baris001 a :TeksAksara ;
+    rdf:value "꧋ꦥ꧀ꦭꦪꦸꦤꦺꦧꦶꦱ꧀ꦲꦺꦴꦫꦧꦶꦱꦧꦤ꧀ꦠꦺꦂ꧉ꦱꦲꦸꦤ꧀ꦠꦫꦲꦶꦏꦸꦥꦺꦤꦸꦩ꧀ꦥꦁꦱꦶꦁꦮꦶꦮꦶꦠ꧀ꦧꦸꦝꦭ꧀ꦮꦶꦱ꧀ꦏꦺꦧꦏ꧀ꦩꦸꦚ꧀ꦗꦸꦁꦢꦸꦫꦸꦁꦲꦤꦱꦶꦁꦩꦸꦣꦸꦤ꧀꧉ꦠꦺꦒꦼꦱꦺꦏꦭꦺꦴꦁ꧉"^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> ;
+    lexinfo:script :AksaraJawa ;
+    :jumlahKarakter "110"^^xsd:integer .
+
+:translit_baris001 a :Transliterasi ;
+    rdf:value "Playuné bís ora bisa bantêr. Sauntårå iku pênumpang sing wiwit budhal wis kêbak munjúng durúng ảnå síng mudhún. Têgêsé kalóng."@jv-Latn ; # 
+    :menggunakanAturan "Transliterasi Latin Aksara Jawa" .
+
+:terjemah_baris001 a :Terjemahan ;
+    rdf:value "Laju bus tidak bisa kencang. Sementara itu penumpang yang sejak berangkat sudah penuh sesak belum ada yang turun. Artinya berkurang."@id .
+
+:baris002 a :BarisCerkak ;
+    :isFromManuscript :cerkak ;
+    :mengandungAksara :aksara_baris002 ;
+    :hasTransliteration :translit_baris002 ;
+    :hasTranslation :terjemah_baris002 ;
+    dcterms:identifier "BARIS-002" .
+
+:aksara_baris002 a :TeksAksara ;
+    rdf:value "꧋ꦢꦢꦶꦲꦏꦸꦏꦫꦺꦴꦝꦶꦏ꧀ꦤꦂꦏꦺꦴꦪꦠꦺꦠꦼꦥ꧀ꦔꦢꦼꦒ꧀꧉ꦲꦸꦤ꧀ꦠꦸꦁꦲꦶꦁꦱꦢꦮꦤꦺꦭꦏꦸꦲꦶꦏꦶꦩꦲꦸꦲꦺꦴꦫꦲꦤꦕꦭꦺꦴꦤ꧀ꦥꦺꦤꦸꦩ꧀ꦥꦁꦱꦶꦁꦔꦺꦤ꧀ꦝꦼꦒ꧀꧉"^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> ;
+    lexinfo:script :AksaraJawa ;
+    :jumlahKarakter "105"^^xsd:integer .
+
+:translit_baris002 a :Transliterasi ;
+    rdf:value "Dadi aku karo Dhík Narkó ya têtêp ngadêg. Untúng íng sadawané laku iki mau ora ănă calón pênumpang síng ngêndhêg."@jv-Latn ; # 
+    :menggunakanAturan "Transliterasi Latin Aksara Jawa" .
+
+:terjemah_baris002 a :Terjemahan ;
+    rdf:value "Jadi aku dan Dik Narko ya tetap berdiri. Untung sepanjang perjalanan ini tadi tidak ada calon penumpang yang menghentikan (bus)."@id .
+
+:baris003 a :BarisCerkak ;
+    :isFromManuscript :cerkak ;
+    :mengandungAksara :aksara_baris003 ;
+    :hasTransliteration :translit_baris003 ;
+    :hasTranslation :terjemah_baris003 ;
+    dcterms:identifier "BARIS-003" .
+
+:aksara_baris003 a :TeksAksara ;
+    rdf:value "꧋ꦤꦺꦩ꧀ꦧꦺꦧꦫꦺꦁꦠꦺꦏꦤ꧀ꦕꦫꦸꦧꦤ꧀ꦲꦤꦱꦮꦺꦠꦫꦥꦺꦤꦸꦩ꧀ꦥꦁꦱꦶꦁꦩꦸꦣꦸꦤ꧀꧉ꦏ꧀ꦭꦺꦧꦸꦥꦺꦤꦸꦩ꧀ꦥꦁꦲꦶꦁꦱꦤ꧀ꦝꦶꦁꦏꦸ꧉ꦏꦭꦺꦴꦝꦔꦤ꧀ꦲꦶꦏꦶꦒꦒꦺꦢꦏ꧀ꦩꦤ꧀ꦥ꦳ꦲꦠꦏꦺ꧉"^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> ;
+    lexinfo:script :AksaraJawa ;
+    :jumlahKarakter "121"^^xsd:integer .
+
+:translit_baris003 a :Transliterasi ;
+    rdf:value "Nêmbé barêng têkan Caruban ånå sawêtårå pênumpang síng mudhún. Klêbu pênumpang ing sandhingku. Kalodhangan iki gagé dakmanfaataké."@jv-Latn ; # 
+    :menggunakanAturan "Transliterasi Latin Aksara Jawa" .
+
+:terjemah_baris003 a :Terjemahan ;
+    rdf:value "Baru setelah sampai Caruban ada beberapa penumpang yang turun. Termasuk penumpang di sampingku. Kesempatan ini segera kumanfaatkan."@id .
+
+:baris004 a :BarisCerkak ;
+    :isFromManuscript :cerkak ;
+    :mengandungAksara :aksara_baris004 ;
+    :hasTransliteration :translit_baris004 ;
+    :hasTranslation :terjemah_baris004 ;
+    dcterms:identifier "BARIS-004" .
+
+:aksara_baris004 a :TeksAksara ;
+    rdf:value "꧋ꦠꦤ꧀ꦥꦥꦿꦺꦢꦸꦭꦶꦥꦺꦤꦸꦩ꧀ꦥꦁꦮꦢꦺꦴꦤ꧀ꦱꦶꦁꦩꦲꦸꦔꦢꦼꦒ꧀ꦲꦶꦁꦗꦺꦗꦺꦂꦏꦸ꧈ꦧꦺꦴꦏꦺꦴꦁꦲꦶꦏꦶꦒꦒꦺꦢꦏ꧀ꦧꦿꦸꦏꦏꦺꦲꦶꦁꦗꦺꦴꦏ꧀꧉ꦭꦺꦒꦫꦱꦤꦺ꧉"^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> ;
+    lexinfo:script :AksaraJawa ;
+    :jumlahKarakter "110"^^xsd:integer .
+
+:translit_baris004 a :Transliterasi ;
+    rdf:value "Tanpå mrêduli pênumpang wadón síng mau ngadêg íng jėjèrku, bókóng iki gagé dakbrúkaké íng jók. Lêgå rasané."@jv-Latn ; # 
+    :menggunakanAturan "Transliterasi Latin Aksara Jawa" .
+
+:terjemah_baris004 a :Terjemahan ;
+    rdf:value "Tanpa mempedulikan penumpang perempuan yang tadi berdiri di sebelahku, pantat ini segera kududukkan di jok. Lega rasanya."@id .
+
+:baris005 a :BarisCerkak ;
+    :isFromManuscript :cerkak ;
+    :mengandungAksara :aksara_baris005 ;
+    :hasTransliteration :translit_baris005 ;
+    :hasTranslation :terjemah_baris005 ;
+    dcterms:identifier "BARIS-005" .
+
+:aksara_baris005 a :TeksAksara ;
+    rdf:value "꧋ꦢꦏ꧀ꦭꦶꦫꦶꦏ꧀ꦝꦶꦏ꧀ꦤꦂꦏꦺꦴꦪꦮꦶꦱ꧀ꦲꦺꦤ꧀ꦠꦸꦏ꧀ꦥꦭꦸꦁꦒꦸꦲꦤ꧀꧉ꦩꦭꦃꦗꦺꦗꦺꦂꦏꦫꦺꦴꦧꦺꦴꦕꦃꦮꦢꦺꦴꦤ꧀ꦲꦪꦸ꧉ꦮꦃ꧈ꦪꦒꦼꦤꦃꦱꦼꦤꦼꦁꦲꦠꦶꦤꦺ꧉"^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> ;
+    lexinfo:script :AksaraJawa ;
+    :jumlahKarakter "116"^^xsd:integer .
+
+:translit_baris005 a :Transliterasi ;
+    rdf:value "Daklirik Dhik Narkó ya wís éntúk palungguhan. Malah jèjèr karo bocah wadón ayu. Wah, yå gênah sênêng atiné."@jv-Latn ; # 
+    :menggunakanAturan "Transliterasi Latin Aksara Jawa" .
+
+:terjemah_baris005 a :Terjemahan ;
+    rdf:value "Kulirik Dik Narko ya sudah dapat tempat duduk. Malah bersebelahan dengan anak perempuan cantik. Wah, ya jelas senang hatinya."@id .
+
+:baris006 a :BarisCerkak ;
+    :isFromManuscript :cerkak ;
+    :mengandungAksara :aksara_baris006 ;
+    :hasTransliteration :translit_baris006 ;
+    :hasTranslation :terjemah_baris006 ;
+    dcterms:identifier "BARIS-006" .
+
+:aksara_baris006 a :TeksAksara ;
+    rdf:value "꧋ꦢꦺꦤꦺꦗꦺꦗꦺꦂꦏꦸꦭꦸꦁꦒꦸꦃꦱꦮꦶꦗꦶꦤꦶꦁꦥꦿꦶꦪꦪꦶꦏꦏꦸꦁꦧꦸꦱꦤꦤꦺꦕꦶꦱ꧀꧉ꦪꦸꦱ꧀ꦮꦤꦺꦧꦫꦏꦤ꧀ꦏꦫꦺꦴꦲꦏꦸ꧉"^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> ;
+    lexinfo:script :AksaraJawa ;
+    :jumlahKarakter "94"^^xsd:integer .
+
+:translit_baris006 a :Transliterasi ;
+    rdf:value "Déné jèjèrku lunggúh sawijining priyayi kakúng busåna nècis. Yúswané barakan karo aku."@jv-Latn ; # 
+    :menggunakanAturan "Transliterasi Latin Aksara Jawa" .
+
+:terjemah_baris006 a :Terjemahan ;
+    rdf:value "Sedangkan di sebelahku duduk seorang pria berpakaian rapi. Usianya sepantaran denganku."@id .
+
+:baris007 a :BarisCerkak ;
+    :isFromManuscript :cerkak ;
+    :mengandungAksara :aksara_baris007 ;
+    :hasTransliteration :translit_baris007 ;
+    :hasTranslation :terjemah_baris007 ;
+    dcterms:identifier "BARIS-007" .
+
+:aksara_baris007 a :TeksAksara ;
+    rdf:value "\"ꦩꦤ꧀ꦝꦥ꧀ꦥꦸꦤ꧀ꦢꦶ?\"ꦥꦶꦠꦏꦺꦴꦤ꧀ꦏꦸꦲꦧꦁꦲꦧꦁꦭꦩ꧀ꦧꦺ꧉"^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> ;
+    lexinfo:script :AksaraJawa ;
+    :jumlahKarakter "42"^^xsd:integer .
+
+:translit_baris007 a :Transliterasi ;
+    rdf:value "\"Mandhap pundi?\" pitakónku abang-abang lambé."@jv-Latn ; # 
+    :menggunakanAturan "Transliterasi Latin Aksara Jawa" .
+
+:terjemah_baris007 a :Terjemahan ;
+    rdf:value "\"Turun mana?\" tanyaku berbasa-basi."@id .
+
+:baris008 a :BarisCerkak ;
+    :isFromManuscript :cerkak ;
+    :mengandungAksara :aksara_baris008 ;
+    :hasTransliteration :translit_baris008 ;
+    :hasTranslation :terjemah_baris008 ;
+    dcterms:identifier "BARIS-008" .
+
+:aksara_baris008 a :TeksAksara ;
+    rdf:value "\"ꦱꦺꦴꦭꦺꦴ,\"ꦮꦁꦱꦸꦭꦤꦺꦕꦼꦏꦏ꧀꧉"^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> ;
+    lexinfo:script :AksaraJawa ;
+    :jumlahKarakter "21"^^xsd:integer .
+
+:translit_baris008 a :Transliterasi ;
+    rdf:value "\"Sålå,\" wangsulané cêkak."@jv-Latn ; # 
+    :menggunakanAturan "Transliterasi Latin Aksara Jawa" .
+
+:terjemah_baris008 a :Terjemahan ;
+    rdf:value "\"Solo,\" jawabnya singkat."@id .
+
+:baris009 a :BarisCerkak ;
+    :isFromManuscript :cerkak ;
+    :mengandungAksara :aksara_baris009 ;
+    :hasTransliteration :translit_baris009 ;
+    :hasTranslation :terjemah_baris009 ;
+    dcterms:identifier "BARIS-009" .
+
+:aksara_baris009 a :TeksAksara ;
+    rdf:value "\"ꦢꦭꦺꦩꦶꦥꦸꦤ꧀ꦱꦺꦴꦭꦺꦴ?\"ꦥꦶꦠꦏꦺꦴꦤ꧀ꦏꦸꦔꦸꦧꦺꦂ꧉"^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> ;
+    lexinfo:script :AksaraJawa ;
+    :jumlahKarakter "33"^^xsd:integer .
+
+:translit_baris009 a :Transliterasi ;
+    rdf:value "\"Dalêmipún Sålå?\" pitakónku ngubêr."@jv-Latn ; # 
+    :menggunakanAturan "Transliterasi Latin Aksara Jawa" .
+
+:terjemah_baris009 a :Terjemahan ;
+    rdf:value "\"Rumahnya Solo?\" tanyaku mengejar."@id .
+
+:baris010 a :BarisCerkak ;
+    :isFromManuscript :cerkak ;
+    :mengandungAksara :aksara_baris010 ;
+    :hasTransliteration :translit_baris010 ;
+    :hasTranslation :terjemah_baris010 ;
+    dcterms:identifier "BARIS-010" .
+
+:aksara_baris010 a :TeksAksara ;
+    rdf:value "“ꦱꦸꦫꦧꦪ꧉ꦝꦠꦼꦁꦱꦺꦴꦭꦺꦴꦱꦥꦼꦂꦭꦸꦠꦸꦮꦶꦩ꧀ꦧꦏ꧀ꦪꦸ꧉ꦲ꧀ꦭꦥꦚ꧀ꦗꦼꦤꦼꦔꦤ꧀ꦩꦤ꧀ꦝꦥ꧀ꦥꦸꦤ꧀ꦢꦶꦒꦼꦤ꧀ꦠꦶꦥꦶꦠꦏꦺꦴꦤꦺ꧉"^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> ;
+    lexinfo:script :AksaraJawa ;
+    :jumlahKarakter "110"^^xsd:integer .
+
+:translit_baris010 a :Transliterasi ;
+    rdf:value "“Surabåyå. Dhatêng Sålå sapêrlu tuwi mbakyu. Hla panjênêngan mandhap pundi gênti pitakóné."@jv-Latn ; # 
+    :menggunakanAturan "Transliterasi Latin Aksara Jawa" .
+
+:terjemah_baris010 a :Terjemahan ;
+    rdf:value "\"Surabaya. Ke Solo perlu mengunjungi kakak perempuan. Lah Anda turun mana?\" ganti pertanyaannya."@id .
+
+:baris011 a :BarisCerkak ;
+    :isFromManuscript :cerkak ;
+    :mengandungAksara :aksara_baris011 ;
+    :hasTransliteration :translit_baris011 ;
+    :hasTranslation :terjemah_baris011 ;
+    dcterms:identifier "BARIS-011" .
+
+:aksara_baris011 a :TeksAksara ;
+    rdf:value "\"ꦤ꧀ꦒ꧀ꦒꦶꦃꦩꦤ꧀ꦝꦥ꧀ꦱꦺꦴꦭꦺꦴ꧉\""^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> ;
+    lexinfo:script :AksaraJawa ;
+    :jumlahKarakter "19"^^xsd:integer .
+
+:translit_baris011 a :Transliterasi ;
+    rdf:value "\"Nggíh mandhap Sålå.\""@jv-Latn ; # 
+    :menggunakanAturan "Transliterasi Latin Aksara Jawa" .
+
+:terjemah_baris011 a :Terjemahan ;
+    rdf:value "\"Ya turun Solo.\""@id .
+
+:baris012 a :BarisCerkak ;
+    :isFromManuscript :cerkak ;
+    :mengandungAksara :aksara_baris012 ;
+    :hasTransliteration :translit_baris012 ;
+    :hasTranslation :terjemah_baris012 ;
+    dcterms:identifier "BARIS-012" .
+
+:aksara_baris012 a :TeksAksara ;
+    rdf:value "\"ꦢꦭꦺꦩꦶꦥꦸꦤ꧀?\"ꦥꦿꦶꦪꦏꦸꦮꦶꦒꦼꦤ꧀ꦠꦶꦔꦺꦴꦪꦏ꧀꧉"^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> ;
+    lexinfo:script :AksaraJawa ;
+    :jumlahKarakter "32"^^xsd:integer .
+
+:translit_baris012 a :Transliterasi ;
+    rdf:value "\"Dalêmipún?\" priyå kuwi gênti ngoyak."@jv-Latn ; # 
+    :menggunakanAturan "Transliterasi Latin Aksara Jawa" .
+
+:terjemah_baris012 a :Terjemahan ;
+    rdf:value "\"Rumahnya?\" pria itu ganti mengejar."@id .
+
+:baris013 a :BarisCerkak ;
+    :isFromManuscript :cerkak ;
+    :mengandungAksara :aksara_baris013 ;
+    :hasTransliteration :translit_baris013 ;
+    :hasTranslation :terjemah_baris013 ;
+    dcterms:identifier "BARIS-013" .
+
+:aksara_baris013 a :TeksAksara ;
+    rdf:value "\"ꦠꦸꦭꦸꦁꦲꦒꦸꦁ꧉\""^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> ;
+    lexinfo:script :AksaraJawa ;
+    :jumlahKarakter "13"^^xsd:integer .
+
+:translit_baris013 a :Transliterasi ;
+    rdf:value "\"Tulúngagúng.\""@jv-Latn ; # 
+    :menggunakanAturan "Transliterasi Latin Aksara Jawa" .
+
+:terjemah_baris013 a :Terjemahan ;
+    rdf:value "\"Tulungagung.\""@id .
+
+:baris014 a :BarisCerkak ;
+    :isFromManuscript :cerkak ;
+    :mengandungAksara :aksara_baris014 ;
+    :hasTransliteration :translit_baris014 ;
+    :hasTranslation :terjemah_baris014 ;
+    dcterms:identifier "BARIS-014" .
+
+:aksara_baris014 a :TeksAksara ;
+    rdf:value "\"ꦲꦺꦴ.....,\"ꦥꦿꦶꦪꦏꦸꦮꦶꦩꦸꦤꦶꦲꦺꦴ'꧉"^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> ;
+    lexinfo:script :AksaraJawa ;
+    :jumlahKarakter "25"^^xsd:integer .
+
+:translit_baris014 a :Transliterasi ;
+    rdf:value "\"O.....,\" priyå kuwi muni 'o'."@jv-Latn ; # 
+    :menggunakanAturan "Transliterasi Latin Aksara Jawa" .
+
+:terjemah_baris014 a :Terjemahan ;
+    rdf:value "\"O.....,\" pria itu berkata 'o'."@id .
+
+:baris015 a :BarisCerkak ;
+    :isFromManuscript :cerkak ;
+    :mengandungAksara :aksara_baris015 ;
+    :hasTransliteration :translit_baris015 ;
+    :hasTranslation :terjemah_baris015 ;
+    dcterms:identifier "BARIS-015" .
+
+:aksara_baris015 a :TeksAksara ;
+    rdf:value "꧋ꦤꦸꦭꦶꦧꦕꦸꦠꦺ꧈\"ꦠꦶꦤ꧀ꦝꦏ꧀ꦱꦺꦴꦭꦺꦴꦢꦭꦩ꧀ꦫꦁꦏ....?\"ꦥꦶꦠꦏꦺꦴꦤ꧀ꦥꦿꦶꦪꦏꦸꦮꦶꦔꦩ꧀ꦧꦁ꧉"^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> ;
+    lexinfo:script :AksaraJawa ;
+    :jumlahKarakter "74"^^xsd:integer .
+
+:translit_baris015 a :Transliterasi ;
+    rdf:value "Nuli bacuté, \"Tindak Sålå dalam rangka....?\" pitakón priya kuwi ngambang."@jv-Latn ; # 
+    :menggunakanAturan "Transliterasi Latin Aksara Jawa" .
+
+:terjemah_baris015 a :Terjemahan ;
+    rdf:value "Lalu lanjutnya, \"Pergi ke Solo dalam rangka....?\" pertanyaan pria itu menggantung."@id .
+
+:baris016 a :BarisCerkak ;
+    :isFromManuscript :cerkak ;
+    :mengandungAksara :aksara_baris016 ;
+    :hasTransliteration :translit_baris016 ;
+    :hasTranslation :terjemah_baris016 ;
+    dcterms:identifier "BARIS-016" .
+
+:aksara_baris016 a :TeksAksara ;
+    rdf:value "꧋ꦲꦏꦸꦪꦚ꧀ꦗꦸꦂꦧ꧀ꦭꦏ꧉ꦪꦺꦤ꧀ꦭꦸꦔꦏꦸꦩꦺꦚꦁꦱꦺꦴꦭꦺꦴꦱꦏꦚ꧀ꦕꦲꦶꦏꦶꦱꦥꦼꦂꦭꦸꦤꦺꦏꦤꦶꦲꦸꦭꦺꦩꦤꦺꦥꦤꦶꦠꦶꦪꦥꦺꦭꦸꦚ꧀ꦕꦸꦫꦤ꧀ꦭꦤ꧀ꦧꦺꦣꦃꦧꦸꦏꦸꦱꦶꦁꦢꦶꦲꦤꦏꦏꦺꦢꦺꦤꦶꦁꦭꦺꦩ꧀ꦧꦒꦏꦗꦶꦪꦤ꧀ꦧꦸꦢꦪꦱꦸꦫꦏꦂꦠꦚꦩ꧀ꦧꦸꦠ꧀ꦒꦮꦺꦧꦫꦺꦁꦏꦫꦺꦴꦱꦁꦒꦂꦱꦱ꧀ꦠꦿꦗꦮꦪꦺꦴꦒ꧀ꦪꦏꦂꦠ꧉"^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> ;
+    lexinfo:script :AksaraJawa ;
+    :jumlahKarakter "267"^^xsd:integer .
+
+:translit_baris016 a :Transliterasi ;
+    rdf:value "Aku ya njúr blåkå. Yèn lungaku mênyang Sålå sakåncå iki sapêrlu nêkani ulêmané panitia pêluncuran lån bêdhåh buku síng dianakaké déníng Lêmbaga Kajian Budaya Surakarta nyambút gawé barêng karo Sanggar Sastra Jawa Yogyakarta."@jv-Latn ; # 
+    :menggunakanAturan "Transliterasi Latin Aksara Jawa" .
+
+:terjemah_baris016 a :Terjemahan ;
+    rdf:value "Aku pun terus terang. Bahwa kepergianku ke Solo bersama teman-teman ini adalah untuk menghadiri undangan panitia peluncuran dan bedah buku yang diadakan oleh Lembaga Kajian Budaya Surakarta bekerja sama dengan Sanggar Sastra Jawa Yogyakarta."@id .
+
+:baris017 a :BarisCerkak ;
+    :isFromManuscript :cerkak ;
+    :mengandungAksara :aksara_baris017 ;
+    :hasTransliteration :translit_baris017 ;
+    :hasTranslation :terjemah_baris017 ;
+    dcterms:identifier "BARIS-017" .
+
+:aksara_baris017 a :TeksAksara ;
+    rdf:value "\"ꦮꦃ꧈ꦩꦤꦮꦶꦩꦏꦠꦺꦤ꧀ꦥꦚ꧀ꦗꦼꦤꦼꦔꦤ꧀ꦩꦼꦤꦶꦏꦩꦺꦱ꧀ꦛꦶꦤ꧀ꦒ꧀ꦒꦶꦃꦱꦱ꧀ꦠꦿꦮꦤ꧀,\"ꦏꦺꦴꦩꦺꦤ꧀ꦠꦫꦺꦥꦿꦶꦪꦩꦲꦸ꧉ꦲꦏꦸꦩꦸꦁꦩ꧀ꦭꦺꦔꦺꦃ꧉ꦩꦺꦴꦁꦏꦺꦴꦒ꧀ꦫꦱꦤꦺꦲꦠꦶ꧈ꦢꦶꦲꦫꦤꦶꦱꦱ꧀ꦠꦿꦮꦤ꧀ꦲꦸꦤ꧀ꦠꦫꦮꦺꦏ꧀ꦠꦸꦚ꧀ꦗꦸꦂꦲꦩꦺꦩ꧀꧉ꦲꦏꦸꦤꦺꦴꦭꦺꦃꦩꦼꦚꦁꦥꦿꦼꦤꦃꦲꦺꦝꦶꦏ꧀ꦤꦂꦏꦺꦴ꧉ꦏꦠꦺꦴꦤ꧀ꦝꦺꦮꦺꦏꦺꦭꦒꦶꦲꦱꦶꦏ꧀ꦔꦺꦴꦧꦿꦺꦴꦭ꧀꧉"^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> ;
+    lexinfo:script :AksaraJawa ;
+    :jumlahKarakter "249"^^xsd:integer .
+
+:translit_baris017 a :Transliterasi ;
+    rdf:value "\"Wah, manawi makatên panjênêngan mênikå mêsthi nggih sastrawan,\" komêntaré priyå mau. Aku múng mlèngèh. Móngkóg rasané ati, diarani sastrawan! Sauntårå wêktu njúr amêm. Aku nolèh mênyang prênahé Dhík Narkó. Katón dhèwèké lagi asyík ngóbról"@jv-Latn ; # 
+    :menggunakanAturan "Transliterasi Latin Aksara Jawa" .
+
+:terjemah_baris017 a :Terjemahan ;
+    rdf:value "\"Wah, kalau begitu Anda ini pasti juga sastrawan,\" komentar pria tadi. Aku hanya tersenyum. Bangga rasanya hati, disebut sastrawan! Beberapa saat kemudian hening. Aku menoleh ke arah Dik Narko. Terlihat dia sedang asyik mengobrol"@id .
+
+:baris018 a :BarisCerkak ;
+    :isFromManuscript :cerkak ;
+    :mengandungAksara :aksara_baris018 ;
+    :hasTransliteration :translit_baris018 ;
+    :hasTranslation :terjemah_baris018 ;
+    dcterms:identifier "BARIS-018" .
+
+:aksara_baris018 a :TeksAksara ;
+    rdf:value "ꦏꦫꦺꦴꦏꦚ꧀ꦕꦗꦺꦗꦺꦫꦺꦱꦶꦁꦲꦪꦸ꧉ꦢꦺꦤꦺꦝꦶꦏ꧀ꦪꦸꦣꦺꦠ꧀ꦏꦫꦺꦴꦝꦶꦏ꧀ꦮꦲꦪꦸꦢꦶꦩꦭꦃꦔ꧀ꦭꦼꦒꦼꦱꦼꦱ꧀ꦠꦸꦫꦸ꧉"^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> ;
+    lexinfo:script :AksaraJawa ;
+    :jumlahKarakter "94"^^xsd:integer .
+
+:translit_baris018 a :Transliterasi ;
+    rdf:value "karo kåncă jèjèré síng ayu. Déné Dhík Yudhèt karo Dhík Wahyudi malah nglêgêsês turu."@jv-Latn ; # 
+    :menggunakanAturan "Transliterasi Latin Aksara Jawa" .
+
+:terjemah_baris018 a :Terjemahan ;
+    rdf:value "dengan teman sebelahnya yang cantik. Sedangkan Dik Yudhet dan Dik Wahyudi malah pulas tidur."@id .
+
+:baris019 a :BarisCerkak ;
+    :isFromManuscript :cerkak ;
+    :mengandungAksara :aksara_baris019 ;
+    :hasTransliteration :translit_baris019 ;
+    :hasTranslation :terjemah_baris019 ;
+    dcterms:identifier "BARIS-019" .
+
+:aksara_baris019 a :TeksAksara ;
+    rdf:value "\"ꦥꦚ꧀ꦗꦼꦤꦼꦔꦤꦺꦏꦭꦮꦲꦸꦗꦸꦩꦼꦤꦼꦁꦮꦶꦮꦶꦠ꧀ꦱꦏꦶꦁꦥꦸꦤ꧀ꦢꦶ?\"ꦥꦶꦠꦏꦺꦴꦤꦺꦥꦿꦶꦪꦗꦺꦗꦺꦂꦏꦸꦩꦼꦕꦃꦲꦩꦺꦩ꧀꧉"^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> ;
+    lexinfo:script :AksaraJawa ;
+    :jumlahKarakter "96"^^xsd:integer .
+
+:translit_baris019 a :Transliterasi ;
+    rdf:value "\"Panjênêngané kålå wau jumênêng wiwit saking pundi?\" pitakóné priyå jèjèrku mêcah amêm."@jv-Latn ; # 
+    :menggunakanAturan "Transliterasi Latin Aksara Jawa" .
+
+:terjemah_baris019 a :Terjemahan ;
+    rdf:value "\"Anda tadi berdiri mulai dari mana?\" pertanyaan pria di sebelahku memecah keheningan."@id .
+
+:baris020 a :BarisCerkak ;
+    :isFromManuscript :cerkak ;
+    :mengandungAksara :aksara_baris020 ;
+    :hasTransliteration :translit_baris020 ;
+    :hasTranslation :terjemah_baris020 ;
+    dcterms:identifier "BARIS-020" .
+
+:aksara_baris020 a :TeksAksara ;
+    rdf:value "\"ꦠꦺꦂꦩꦶꦤꦭ꧀ꦔꦚ꧀ꦗꦸꦏ꧀꧉ꦲ꧀ꦭꦤ꧀ꦒ꧀ꦒꦶꦃꦩꦼꦤꦶꦏꦠ꧈ꦚꦼꦒꦠ꧀ꦔꦤ꧀ꦠꦺꦴꦱ꧀ꦢꦔꦸꦩ꧀ꦧꦺꦴꦠꦺꦤ꧀ꦤ꧀ꦝꦁꦲꦺꦤ꧀ꦠꦼꦤ꧀꧈ꦱꦫꦺꦁꦲꦺꦤꦠꦼꦤ꧀ꦏꦺꦴꦏ꧀ꦏꦺꦧꦏ꧀꧉ꦏꦺꦥꦼꦏ꧀ꦱꦭꦗꦼꦁꦔꦢꦼꦒ꧀꧈ꦠꦸꦩꦁꦒꦥ꧀ꦏꦸ꧉"^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> ;
+    lexinfo:script :AksaraJawa ;
+    :jumlahKarakter "177"^^xsd:integer .
+
+:translit_baris020 a :Transliterasi ;
+    rdf:value "\"Têrminal Nganjúk. Hla nggíh mênikå tå. Nyêgat ngantós dangu mbótên ndang èntên, sarêng èntên kók kêbak. Kêpêkså lajêng ngadêg, tumanggapku."@jv-Latn ; # 
+    :menggunakanAturan "Transliterasi Latin Aksara Jawa" .
+
+:terjemah_baris020 a :Terjemahan ;
+    rdf:value "\"Terminal Nganjuk. Lah iya ini kan. Menunggu lama tidak segera ada, begitu ada kok penuh. Terpaksa lalu berdiri,\" tanggapku."@id .
+
+:baris021 a :BarisCerkak ;
+    :isFromManuscript :cerkak ;
+    :mengandungAksara :aksara_baris021 ;
+    :hasTransliteration :translit_baris021 ;
+    :hasTranslation :terjemah_baris021 ;
+    dcterms:identifier "BARIS-021" .
+
+:aksara_baris021 a :TeksAksara ;
+    rdf:value "꧋ꦧꦚ꧀ꦗꦸꦂꦢꦏ꧀ꦱꦩ꧀ꦧꦸꦁ꧈\"ꦔꦤ꧀ꦠꦺꦴꦱ꧀ꦗꦶꦩ꧀ꦥꦺꦫꦲꦺꦴꦱꦶꦁꦱꦸꦏꦸ꧉\"ꦥꦿꦶꦪꦏꦸꦮꦶꦤ꧀ꦒ꧀ꦒꦸꦪꦸ꧉"^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> ;
+    lexinfo:script :AksaraJawa ;
+    :jumlahKarakter "69"^^xsd:integer .
+
+:translit_baris021 a :Transliterasi ;
+    rdf:value "Banjúr daksambúng, \"Ngantós jimpé raósíng suku.\" Priyå kuwi ngguyu."@jv-Latn ; # (disesuaikan dengan aksara dan konteks)
+    :menggunakanAturan "Transliterasi Latin Aksara Jawa" .
+
+:terjemah_baris021 a :Terjemahan ;
+    rdf:value "Lalu kusambung, \"Sampai kesemutan rasa kakiku.\" Pria itu tertawa."@id .
+
+:baris022 a :BarisCerkak ;
+    :isFromManuscript :cerkak ;
+    :mengandungAksara :aksara_baris022 ;
+    :hasTransliteration :translit_baris022 ;
+    :hasTranslation :terjemah_baris022 ;
+    dcterms:identifier "BARIS-022" .
+
+:aksara_baris022 a :TeksAksara ;
+    rdf:value "\"ꦥꦚ꧀ꦗꦼꦤꦼꦔꦤ꧀ꦥꦿꦶꦪꦪꦶꦏꦏꦸꦁꦗꦸꦩꦼꦤꦼꦁꦮꦶꦮꦶꦠ꧀ꦔꦚ꧀ꦗꦸꦏ꧀ꦔꦤ꧀ꦠꦺꦴꦱ꧀ꦕꦫꦸꦧꦤ꧀ꦏꦺꦩꦮꦺꦴꦤ꧀ꦱꦩ꧀ꦧꦠ꧀ꦗꦶꦩ꧀ꦥꦺ꧉ꦩꦭꦃꦥꦿꦶꦪꦤ꧀ꦠꦸꦤ꧀ꦥꦸꦠꦿꦶꦗꦺꦗꦺꦂꦥꦚ꧀ꦗꦼꦤꦼꦔꦤ꧀ꦏꦭꦮꦲꦸꦲꦁꦒꦺꦤꦶꦥꦸꦤ꧀ꦗꦸꦩꦼꦤꦼꦁꦮꦶꦮꦶꦠ꧀ꦱꦏꦶꦁꦠꦺꦂꦩꦶꦤꦭ꧀ꦗꦺꦴꦩ꧀ꦧꦁ꧉\"ꦲꦸꦗꦫꦺꦱꦺꦩꦸꦩꦼꦭꦺꦃꦲꦏꦺꦲꦏꦸ꧉"^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> ;
+    lexinfo:script :AksaraJawa ;
+    :jumlahKarakter "255"^^xsd:integer .
+
+:translit_baris022 a :Transliterasi ;
+    rdf:value "\"Panjênêngan priyayi kakúng jumênêng wiwít Nganjúk ngantós Caruban kémawón sambat jimpé. Malah priyantún putri jèjèr panjênêngan kalawau anggènipún jumênêng wiwit sakíng têrminal Jombang,\" ujaré sêmu mêléhaké aku."@jv-Latn ; # 
+    :menggunakanAturan "Transliterasi Latin Aksara Jawa" .
+
+:terjemah_baris022 a :Terjemahan ;
+    rdf:value "\"Anda seorang pria berdiri dari Nganjuk sampai Caruban saja mengeluh kesemutan. Padahal wanita di sebelah Anda tadi berdirinya sejak dari terminal Jombang,\" ujarnya seolah meremehkanku."@id .
+
+# Lanjutan untuk teks Aksara Jawa dari halaman 8 PDF
+
+:baris023 a :BarisCerkak ;
+    :isFromManuscript :cerkak ;
+    :mengandungAksara :aksara_baris023 ;
+    :hasTransliteration :translit_baris023 ;
+    :hasTranslation :terjemah_baris023 ;
+    dcterms:identifier "BARIS-023" .
+
+:aksara_baris023 a :TeksAksara ;
+    rdf:value "꧋ꦲꦏꦸꦠꦸꦩꦺꦔꦠꦩꦱ꧀ꦥꦢꦏꦏꦺꦮꦺꦴꦁꦮꦢꦺꦴꦤ꧀ꦗꦺꦗꦺꦂꦏꦸꦔꦢꦼꦒ꧀ꦩꦲꦸ꧉ꦠꦺꦏꦤ꧀ꦮꦺꦏ꧀ꦠꦸꦲꦶꦏꦸꦝꦺꦮꦺꦏꦺꦲꦶꦱꦶꦃꦔꦢꦼꦒ꧀꧉ꦤꦶꦁꦱꦗꦏ꧀ꦱꦤ꧀ꦠꦲꦶ꧉ꦥꦺꦴꦭꦠꦤꦺꦠꦤ꧀ꦥꦤꦸꦢꦸꦃꦲꦏꦺꦥꦔꦿꦼꦱꦸꦭ꧉ꦲꦥꦱꦺꦗꦠꦶꦤꦺꦱꦶꦏꦶꦭꦺꦏꦿꦱꦗꦶꦩ꧀ꦥꦺꦲꦥꦲꦺꦴꦫ꧈ꦲꦏꦸꦲꦺꦴꦫꦔꦺꦂꦠꦶ꧉ꦮꦶꦱ꧀ꦧꦃꦧꦃꦏꦺꦴꦤꦺꦴ꧉"^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> ;
+    lexinfo:script :AksaraJawa ;
+    :jumlahKarakter "270"^^xsd:integer . # Typo di aksara ꦏꦺꦴꦤꦺꦴꧡꦫ corrected to ꦏꦺꦴꦤꦺꦴ
+
+:translit_baris023 a :Transliterasi ;
+    rdf:value "Aku tumêngå maspadakaké wong wadón jèjèrku ngadêg mau. Têkan wêktu iku dhèwèké isíh ngadêg. Níng sajak santai. Polatané tanpå nudúhaké pangrêsulå. Åpå sejatiné sikilé kråså jimpé åpå ora, aku ora ngêrti. Wis bah-bah kono!"@jv-Latn ; # 
+    :menggunakanAturan "Transliterasi Latin Aksara Jawa" .
+
+:terjemah_baris023 a :Terjemahan ;
+    rdf:value "Aku menengadah memperhatikan perempuan yang berdiri di sebelahku tadi. Sampai waktu itu dia masih berdiri. Tapi sepertinya santai. Raut mukanya tanpa menunjukkan keluhan. Apa sebenarnya kakinya terasa kesemutan apa tidak, aku tidak tahu. Sudah biarkan saja!"@id .
+
+:baris024 a :BarisCerkak ;
+    :isFromManuscript :cerkak ;
+    :mengandungAksara :aksara_baris024 ;
+    :hasTransliteration :translit_baris024 ;
+    :hasTranslation :terjemah_baris024 ;
+    dcterms:identifier "BARIS-024" .
+
+:aksara_baris024 a :TeksAksara ;
+    rdf:value "꧋ꦧꦶꦱ꧀ꦠꦼꦫꦸꦱ꧀ꦩ꧀ꦭꦪꦸꦤꦗꦤ꧀ꦲꦺꦴꦫꦧꦤ꧀ꦠꦺꦂ꧉ꦲꦶꦁꦚ꧀ꦗꦧꦲꦸꦢꦤꦺꦲꦶꦱꦶꦃꦠꦼꦫꦸꦱ꧀ꦔꦿꦼꦕꦶꦃ꧉ꦱꦗꦏꦺꦲꦺꦴꦫꦲꦺꦁꦒꦭ꧀ꦠꦼꦫꦁ꧉ꦲꦮꦏꦿꦱꦲꦠꦶꦱ꧀ꦧꦼꦧꦫꦺꦔꦤ꧀ꦱꦺꦴꦪꦩꦿꦩ꧀ꦧꦠ꧀ꦮꦼꦔꦶꦱꦶꦁꦱꦤ꧀ꦱꦺꦴꦪꦮꦼꦔꦶ꧉"^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> ;
+    lexinfo:script :AksaraJawa ;
+    :jumlahKarakter "195"^^xsd:integer .
+
+:translit_baris024 a :Transliterasi ;
+    rdf:value "Bís têrús mlayu najan ora bantêr. Íng njåbå udané isíh têrús ngrêcih. Sajaké ora énggal têrang. Håwå kråså atis bêbarêngan såyå mrambat wêngi síng sansåyå wêngi."@jv-Latn ; # 
+    :menggunakanAturan "Transliterasi Latin Aksara Jawa" .
+
+:terjemah_baris024 a :Terjemahan ;
+    rdf:value "Bus terus melaju meskipun tidak kencang. Di luar hujan masih terus rintik-rintik. Sepertinya tidak akan segera terang. Udara terasa dingin bersamaan semakin merambat malam yang semakin malam."@id .
