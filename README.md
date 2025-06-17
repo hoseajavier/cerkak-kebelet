@@ -3,7 +3,7 @@
 ### 🔗 Link Download
 Apache Jena Fuseki: **https://jena.apache.org/download/**
 
-###⚙️ Panduan Instalasi Apache Jena Fuseki
+### ⚙️ Panduan Instalasi Apache Jena Fuseki
 1. Unduh Apache Jena Fuseki
 - Buka tautan download di atas.
 - Temukan dan unduh file Apache Jena Fuseki dengan format ZIP atau TAR.GZ.
@@ -33,11 +33,11 @@ Apache Jena Fuseki: **https://jena.apache.org/download/**
 
 ### 💻 Panduan Penggunaan Aplikasi Streamlit
 1. Menjalankan Aplikasi
-> Jalankan aplikasi dengan mengetikkan perintah streamlit run nama_projek.py.
+- Jalankan aplikasi dengan mengetikkan perintah streamlit run **nama_projek.py**.
 2. Mengakses Aplikasi
-> Setelah server berjalan, buka browser dan masuk ke http://localhost:8501.
+- Setelah server berjalan, buka browser dan masuk ke **http://localhost:8501**.
 3. Cara Menggunakan Aplikasi
-> Masukkan kata kunci pencarian yang ingin dicari (misalnya dalam Aksara Jawa, Bahasa Jawa, atau Bahasa Indonesia).
-> Aplikasi akan menampilkan baris-baris yang mengandung kata kunci tersebut beserta hasil translasi, transliterasi, dan aksara Jawa-nya.
-> Jika ingin melihat seluruh baris dari teks cerkak, scroll ke bagian bawah dan klik tombol "Tampilkan semua baris".
+- Masukkan kata kunci pencarian yang ingin dicari (misalnya dalam Aksara Jawa, Bahasa Jawa, atau Bahasa Indonesia).
+- Aplikasi akan menampilkan baris-baris yang mengandung kata kunci tersebut beserta hasil translasi, transliterasi, dan aksara Jawa-nya.
+- Jika ingin melihat seluruh baris dari teks cerkak, scroll ke bagian bawah dan klik tombol "Tampilkan semua baris".
 
