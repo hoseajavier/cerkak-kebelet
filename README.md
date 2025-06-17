@@ -1,6 +1,6 @@
 # cerkak-kebelet
-📘 Panduan Instalasi dan Penggunaan Aplikasi Pencarian Naskah RDF
-🔗 Link Download
+##📘 Panduan Instalasi dan Penggunaan Aplikasi Pencarian Naskah RDF
+###🔗 Link Download
 Apache Jena Fuseki: https://jena.apache.org/download/
 
 ⚙️ Panduan Instalasi Apache Jena Fuseki
