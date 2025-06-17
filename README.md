@@ -43,4 +43,20 @@ Apache Jena Fuseki: **https://jena.apache.org/download/**
 
 ### Contoh Hasil
 1. Tampilan Utama
-![image](https://github.com/user-attachments/assets/98c25e40-8b2d-4c7a-b35d-61fa05421c29)
+![image](https://github.com/user-attachments/assets/818d1a66-340b-46aa-8f25-0653b6e419ad)
+
+2. Hasil Pencarian
+- Jika yang dicari kata kuncinya Bahasa Indonesia
+![Gambar WhatsApp 2025-06-17 pukul 20 38 20_4396e378](https://github.com/user-attachments/assets/798acee9-049c-4b3a-8c98-be85867aaecf)
+
+- Jika yang dicari kata kuncinya Bahasa Jawa
+![Gambar WhatsApp 2025-06-17 pukul 20 39 19_82f1fa07](https://github.com/user-attachments/assets/000188c4-40e6-4a7d-9923-6d2eda0605b9)
+
+- Jika yang dicari kata kuncinya Aksara Jawa
+![Gambar WhatsApp 2025-06-17 pukul 20 39 54_526a53c4](https://github.com/user-attachments/assets/fa19c498-c1c6-4aca-a7d7-946e73a89def)
+
+- Menampilkan semua baris data cerkak
+![Gambar WhatsApp 2025-06-17 pukul 20 37 38_718e68b9](https://github.com/user-attachments/assets/af563bcb-b89f-47e9-aecf-31ac18557376)
+
+- Error jika tidak ada kata kunci yang dicari
+![Gambar WhatsApp 2025-06-17 pukul 20 40 15_4d749c18](https://github.com/user-attachments/assets/db372db7-b1e0-49a4-890b-66f4489dec22)
